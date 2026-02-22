@@ -55,4 +55,13 @@ const Header = ({name, age}) => {
     );
 }
 
+// when we need to use Header in another component we can pass the data like this
+
+function App() {
+    return (
+      <div>
+        <Header name="John" age={30} />
+      </div>
+    );
+}
 
